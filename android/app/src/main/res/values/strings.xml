@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">otaupdateapp</string>
+    <string name="StallionProjectId">6875ee63c457eaa28eae0384</string>
+    <string name="StallionAppToken">spb_cxk-xO9LeKmER9uspIhN3boXuaLA9IFGCu_RYnKqAC</string>
 </resources>
