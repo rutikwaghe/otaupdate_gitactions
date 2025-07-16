@@ -1,5 +1,5 @@
 import { StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native';
-import { withStallion } from 'react-native-stallion';
+// import { withStallion } from 'react-native-stallion';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default withStallion(App)
+export default App
+// export default withStallion(App)
 
 //stallion publish-bundle --upload-path=mbstyx/otpupdate/firstotaupdate --platform=android --release-note="change color"
